@@ -60,7 +60,7 @@
         <!--Cекція ГЕРОЙ - на задньому фоні картинка-->
         <section class="hero section">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-btn" type="button">Замовити послугу</button>
+            <button class="hero-btn" type="button" data-modal-open >Замовити послугу</button>
         </section>
         <!--Cекція з прихлваним заголовком-->
         <section class="speciality section">
@@ -395,9 +395,18 @@
                 </ul>
             </div>
         </div>
-
     </footer>
     <!--==КІНЕЦЬ== Футер- логотип,розташування-->
+    <!-- ВСТАВЛЯЄМО МОДАЛЬНЕ ВІКНО-->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-btn" type="button" data-modal-close>
+                <svg class="modal-svg" width="18px" height="18px">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
-
 </html>
