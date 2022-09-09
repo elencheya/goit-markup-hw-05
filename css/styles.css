@@ -1,8 +1,9 @@
 :root{
     /*========SVG COLORS*/
     --svg-header-color:#757575;
-    ----svg-header-focus-color:#2196F3;
-tt
+    --svg-header-focus-color:#2196F3;
+
+
     /*====BACKGROUND COLOR====*/ 
     --main-background-color: #FFFFFF;
     --team-background-color: #F5F4FA;
@@ -168,7 +169,7 @@ ul{
     width: 100%;
     height: 4px;
 
-    bottom: -28px;
+    bottom: -32px;
     left: 0;
 
 
@@ -194,7 +195,7 @@ ul{
 
 .header-address-link:hover .header-icon,
 .header-address-link:focus .header-icon{
-    fill: var(----svg-header-focus-color);
+    fill: var(--svg-header-focus-color);
 }
 
 
@@ -363,6 +364,45 @@ ul{
     margin-right: 30px;
 }
 
+/**
+  |============================
+  | ОСЬ ТУТ ЩОСЬ НЕ ТАК!!!!!
+  |============================
+*/
+/*===ТЕКСТ НА ФОТОГРАФіЯХ===*/
+.projets-item-container{
+    position: relative;
+}
+ 
+.project-subtitle-container{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+
+    bottom: 0;
+    left: 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.projects-subtitle{
+    font-weight: 700;
+        
+    text-transform: uppercase;
+    
+    color:var(--white-color);
+}
+
+
+
+
+
+ /* */
 
 .team{
     background-color: var(--team-background-color);
