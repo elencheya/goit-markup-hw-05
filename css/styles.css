@@ -364,11 +364,6 @@ ul{
     margin-right: 30px;
 }
 
-/**
-  |============================
-  | ОСЬ ТУТ ЩОСЬ НЕ ТАК!!!!!
-  |============================
-*/
 /*===ТЕКСТ НА ФОТОГРАФіЯХ===*/
 .projets-item-container{
     position: relative;
@@ -399,10 +394,13 @@ ul{
 }
 
 
-
-
-
- /* */
+/*Це прибере стандартний відступ від браузера*/
+.projets-item-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*Це прибере стандартний відступ від браузера*/
 
 .team{
     background-color: var(--team-background-color);
