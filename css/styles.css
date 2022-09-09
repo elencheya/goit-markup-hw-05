@@ -807,6 +807,8 @@ ul{
 }
 
 .portfolio-mooving-link{
+    text-decoration: none;
+
     transition: transform var(--cubic-mooving-speed-color);
 }
 
@@ -882,5 +884,6 @@ ul{
 .portfolio-projet-desc{
     font-size: 16px;
     line-height: 1.88;
+    color: var(--main-text-color);
 }
 
