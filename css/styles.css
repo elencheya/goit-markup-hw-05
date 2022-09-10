@@ -343,6 +343,11 @@ ul{
     letter-spacing: 0.03em;
 }
 
+.projects.section{
+    padding-top: 0px;
+}
+
+
 .projects-title{
     margin-bottom: 50px;
 
@@ -365,7 +370,7 @@ ul{
 }
 
 /*===ТЕКСТ НА ФОТОГРАФіЯХ===*/
-.projets-item-container{
+.projets-item{
     position: relative;
 }
  
@@ -392,7 +397,7 @@ ul{
     
     color:var(--white-color);
 }
-
+ 
 
 /*Це прибере стандартний відступ від браузера*/
 .projets-item-img{
